@@ -1,7 +1,7 @@
 {
-  "name": "frontend_l4_chat_project",
+  "name": "@olyabelome/chat",
   "version": "0.0.1",
-  "description": "",
+  "description": "A training project - chat",
   "main": "server/index.js",
   "engines": {
     "node": ">= 14"
@@ -17,9 +17,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:hexlet-components/projects-frontend-l4-server.git"
+    "url": "https://github.com/olgabelykh/frontend-project-lvl4.git"
   },
-  "author": "Kirill Mokevnin",
+  "author": "Olya Belykh",
   "license": "ISC",
   "homepage": "",
   "dependencies": {
