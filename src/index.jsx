@@ -1,5 +1,3 @@
-// @ts-check
-
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
 
@@ -17,6 +15,6 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 const container = document.querySelector('#chat');
-ReactDOM.render(<App />, container);
+ReactDOM.render(<App channels={gon.channels} />, container);
 
 console.log('gon', gon);

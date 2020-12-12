@@ -1,4 +1,11 @@
 import React from 'react';
 
-const App = () => <div>Hey</div>;
+import ChannelList from './ChannelList';
+
+const App = ({ channels }) => (
+  <div>
+    <ChannelList channels={channels} />
+  </div>
+);
+
 export default App;
